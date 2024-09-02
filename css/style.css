@@ -3503,11 +3503,77 @@ ul.plan-features {
 	-webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
-@media (max-width:575px){
+@media (min-width:991px) and (max-width:1199px) {
+    .cta-button {
+      
+        margin-bottom:123px!important;
+        
+    }
+	.img7dias{
+		width:auto!important;
+	}
+	.colmobile{
+		width:90%!important;
+	}
+	.shadow-image {
+       
+        width: 80%!important;
+       
+    }
+	#planos {
+        padding-bottom: 0!important;
+    }
+	.textapresentation {
+      
+        margin-top: 80px!important;
+    }
+	.btndesafio{
+		margin-bottom:0!important;
+	}
+	.card {
+       height:488px!important;
+       
+    }
+	.img7days{
+		width:auto!important;
+	}
+}
+@media (max-width:1199px){
 	.header-video-2 {
 		height: 100%;
 		
 	}
+	.areap{
+		padding-bottom:70px!important;
+		
+	}
+	.area7days{
+		align-items: center;
+    display: flex;
+    justify-content: center;
+	width:90%;
+	margin:auto;
+	margin-bottom:70px;
+    
+}
+	
+	#planos{
+		padding-bottom:50px!important;
+	}
+	.margin_60_35{
+		padding:0 0 0 0;
+	}
+	.btnebook{
+		margin-top:0!important;
+	}
+	.differential-item {
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+	  }
+	  .mobiler{
+		margin-right:0!important;
+	  }
 	#sub_content h1 {
         font-size: 4rem;
         width: 95%;
@@ -3551,10 +3617,13 @@ ul.plan-features {
 	.areaApresentation{
 		flex-direction:column;
 	}
-	.shadow-image{
-		width:100%;
-		margin-top:50px;
-	}
+	.shadow-image {
+        margin-top: 50px;
+        margin: auto;
+        display: flex;
+        width: 100%;
+        margin-top: 50px;
+    }
 	.destaques{
 		padding-top:80px;
 	}
@@ -3579,8 +3648,7 @@ ul.plan-features {
 	}
 	.logo{
 		text-align:center;
-		padding-right: 0;
-		padding-left: 0;
+		
 	}
 	.image-container {
 		position: relative;
