@@ -50,7 +50,16 @@
       </div>
      
     </header>
-   
+    <div class="banner" id="banner">
+      <div class="banner-content">
+        <button class="close-btn" onclick="fecharBanner()">✖</button>
+        <h1 class="headline">🔥 ESQUENTA BLACK FRIDAY!</h1>
+        <h2 class="subheadline">CURSO SECATUDO POR APENAS:</h2>
+        <p class="price">R$21,90/MÊS</p>
+        <p class="cta">OFERTA EXCLUSIVA • ÚLTIMAS VAGAS!</p>
+        <button class="buy-now-btn" onclick="comprarAgora()">COMPRAR AGORA</button>
+      </div>
+    </div>
     <section
       class="header-video-2 jarallax"
       data-jarallax-video="mp4:./video/intro.mp4"
@@ -588,5 +597,21 @@
 <script src="js/jarallax-video.min.js" defer></script>
 
 
+<script>
+  // Função para fechar o banner
+  function fecharBanner() {
+        document.getElementById("banner").style.display = "none";
+      }
+
+      // Função de ação ao clicar em "Comprar Agora"
+      function comprarAgora() {
+        window.location.href = "https://pay.hotmart.com/D94742460J?off=4u9xtphx&checkoutMode=10&bid=1725575564085"; // Substitua com o link da página de compra
+      }
+
+      // Exibir o banner assim que a página carrega
+      window.onload = function() {
+        document.getElementById("banner").style.display = "flex";
+      };
+</script>
   </body>
 </html>
